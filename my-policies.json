@@ -1,0 +1,15 @@
+[{
+	"policyTemplateId": "client-id-enforcement",
+	"configurationData": {
+		"credentialsOrigin": "customExpression",
+		"clientIdExpression": "#[message.inboundProperties['client_id']]",
+		"clientSecretExpression": "#[message.inboundProperties['client_secret']]"
+	}
+},
+{
+	"policyTemplateId": "ip-whitelist",
+	"configurationData": {
+		"ipExpression": "#[message.inboundProperties['X-Forwarded-For']]",
+		"ips": ["192.168.0.1/100", "192.168.1.1/100"]
+	}
+}]

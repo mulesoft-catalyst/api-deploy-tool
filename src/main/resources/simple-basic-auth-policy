@@ -1,0 +1,10 @@
+[{
+	"policyTemplateId": "simple-security-manager",
+	"configurationData": {
+		"username": "username",
+		"password": "password"
+	}
+}, {
+	"policyTemplateId": "http-basic-authentication",
+	"configurationData": {}
+}]
