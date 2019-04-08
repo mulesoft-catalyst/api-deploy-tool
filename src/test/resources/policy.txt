@@ -1,0 +1,27 @@
+{
+ 	"policyTemplateId": "client-id-enforcement",
+ 	"configurationData": {
+ 		"credentialsOrigin": "customExpression",
+ 		"clientIdExpression": "#[message.inboundProperties['client_id']]",
+ 		"clientSecretExpression": "#[message.inboundProperties['client_secret']]",
+ 		"order": 1,
+ 				
+  		"policyId": 293320,
+ 		"endpointUri": "https:\\/\\/some\\.implementation\\.com",
+ 		"isRamlEndpoint": false,
+ 		"isWsdlEndpoint": false,
+ 		"isHttpEndpoint": true,
+ 		"apiId": 10521216,
+ 		"autodiscoveryApiName": "groupId:6e07dbd3-df93-4046-acf6-264c2c8b0b00:assetId:6e07dbd3-df93-4046-acf6-264c2c8b0b00_efg_1.0.0",
+ 		"autodiscoveryInstanceName": "v1:10521216"
+ 	}
+ }
+
+ {"name":"test-one","description":"my test","redirectUri":[],"grantTypes":[],"apiEndpoints":false}
+ Request URL:https://anypoint.mulesoft.com/exchange/api/v1//organizations/02ddc365-f8c5-4410-b8d6-c07a596d8f6b/applications
+ 
+ {"apiId":"10638061","environmentId":"9d4981f9-881a-40f2-ab4e-02083465e25c","acceptedTerms":true,"organizationId":"6e07dbd3-df93-4046-acf6-264c2c8b0b00","groupId":"6e07dbd3-df93-4046-acf6-264c2c8b0b00","assetId":"6e07dbd3-df93-4046-acf6-264c2c8b0b00_abcdefg_1.0.0","version":"1.0.0","productAPIVersion":"v1"}
+ Request URL:https://anypoint.mulesoft.com/exchange/api/v1/organizations/02ddc365-f8c5-4410-b8d6-c07a596d8f6b/applications/124495/contracts
+ 
+ {"apiId":"10648630","environmentId":"9d4981f9-881a-40f2-ab4e-02083465e25c","acceptedTerms":true,"organizationId":"6e07dbd3-df93-4046-acf6-264c2c8b0b00","groupId":"6e07dbd3-df93-4046-acf6-264c2c8b0b00","assetId":"6e07dbd3-df93-4046-acf6-264c2c8b0b00_abcdefg_1.0.0","version":"1.0.0","productAPIVersion":"v1"}
+ Request URL:https://anypoint.mulesoft.com/exchange/api/v1/organizations/02ddc365-f8c5-4410-b8d6-c07a596d8f6b/applications/124814/contracts
