@@ -9,7 +9,7 @@
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<jackson-2-version>2.9.10.1</jackson-2-version>
+		<jackson-2-version>2.11.0</jackson-2-version>
 		<mule.version>3.9.0</mule.version>
 		<jersey-client-version>1.19.3</jersey-client-version>
 	</properties>
